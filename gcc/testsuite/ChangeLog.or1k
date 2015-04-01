@@ -1,0 +1,4 @@
+2015-04-01  Andrew Burgess  <andrew.burgess@embecosm.com>
+
+	* gcc.dg/builtin-apply2.c: Revert miss-merge introduced in commit
+	1766a50, now matched upstream version.
