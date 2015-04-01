@@ -1,4 +1,9 @@
 2015-04-01  Andrew Burgess  <andrew.burgess@embecosm.com>
 
+	* gcc.dg/builtin-stringop-chk-1.c: Revert commit ddb9f9e4 on this
+	file, this test passes on or1k now.
+
+2015-04-01  Andrew Burgess  <andrew.burgess@embecosm.com>
+
 	* gcc.dg/builtin-apply2.c: Revert miss-merge introduced in commit
 	1766a50, now matched upstream version.
